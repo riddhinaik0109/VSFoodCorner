@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    overflow-x: hidden;
+  }
+.navbar{
+    width: 100vw;
+}
+.log{
+    text-align: center;
+color: #fff;
+}
+.row{
+    padding-left: 360px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    }
+
+    
+.btn-dark2{
+    background: #FECC07;
+    color: #000000;
+    border: none;
+    width: 275px;
+    height: 48px;
+    border-radius: 5px;
+   margin-left: 360px;
+  }
+  .asset{
+    padding-left: 50px;
+    margin-right: 50px;
+    width: 150px;
+  }
+  .asset img{
+    width: 116px;
+    height: 85px;
+  }
+  .cont1{
+    width: 100vw;
+    min-height: 600px;
+    background-image: url('images1/leaves.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont1 h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+}

@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+
+.navbar {
+  height: 135px;
+  width: 1512px;
+  background: none;
+  background-color: #10151C;
+  --bs-navbar-nav-link-padding-x: 3.5rem;
+  font-size: 120%;
+  list-style-type: none;
+  letter-spacing: 1px;
+  --bs-navbar-toggler-border-color: #FECC07;
+  font-family: 'Inter',sans-serif;
+  font-weight: bold;
+}
+
+.asset{
+  padding-left: 100px;
+  width: 150px;
+}
+.asset img{
+  width: 116px;
+  height: 85px;
+}
+.navbar a {
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  --bs-navbar-toggler-border-color: #FECC07;
+  font-size: 15px;
+}
+
+
+.nav-item {
+  padding-top: 25px;
+}
+.social{
+  display: flex;
+  padding-left: 20px;
+}
+.social img{
+  width: 20px;
+  height: 20px;
+}
+
+.cont0{
+  text-align: center;
+  display: flex;
+  padding-left: 180px;
+}
+
+
+.cont1{
+  width: 100vw;
+  min-height: 600px;
+  background-image: url('images1/leaves.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont2 h1{
+color: #FFFFFF;
+font-family: Crimson Text;
+font-weight: bold;
+text-align: center;
+font-size: 72px;
+margin-top: 150px;
+}
+.cont2 p{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  }
+
+  .cont03{
+    height: 700px;
+    background-color: #3E3E3E ;
+    padding-top: 100px;
+  }
+  .cont3{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #10151C;
+    
+  }
+  .cont3a{
+    padding-top: 150px;
+    padding-left: 250px;
+  }
+  .cont3a h3{
+font-family: Crimson Text;
+color: #FFFFFF;
+font-size: 40px;
+  }
+  .cont3a hr{
+    color: #FECC07;
+    width: 230px;
+    border-width: 2px;
+    border-radius: 2px;
+    opacity: 1;
+  }
+  .cont3a p{
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+  .cont3b{
+    padding-top: 80px;
+    padding-left: 150px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+
+
+.contact input {
+    margin-top: 10px;
+    background: #3E3E3E;
+    caret-color: #fff;
+    border: 1px solid #3E3E3E;
+}
+
+.contact textarea {
+    margin-top: 10px;
+    background: #3E3E3E;
+    caret-color: #fff;
+    border: 1px solid #3E3E3E;
+}
+
+.contact input:focus {
+    margin-top: 10px;
+    color: #fff;
+    background: #3E3E3E;
+    border: 1px solid #3E3E3E;
+}
+
+.contact textarea:focus {
+    margin-top: 10px;
+    color: #fff;
+    background: #3E3E3E;
+    border: 1px solid #3E3E3E;
+}
+
+.contact input::placeholder { 
+   color:    #fff;
+    font-weight: 500;
+}
+
+.contact textarea::placeholder { 
+   color:    #fff;
+    font-weight: 500;
+}
+
+.btn-dark2{
+  background: #FECC07;
+  color: #000000;
+  border: none;
+  width: 275px;
+  height: 48px;
+  margin-right: 10px;
+  border-radius: 5px;
+ margin: 10px;
+
+}
+.pull-left{
+  text-align: center;
+}
+
+.ratio{
+  width: 100%;
+  height: 423px;
+}
+
+.cont8{
+  background-color: #0E1317;
+  color: #E5DEDE;
+  width: 1350px;
+  padding-top: 50px;
+}
+.cont8 img{
+  height: 100px;
+  width: 130px;
+  margin: 10px;
+  margin-bottom: 50px;  
+
+}
+.cont8 a{
+  text-decoration: none;
+  color: #E5DEDE;
+}
+.cont11f{
+  text-align: center;
+}
+.cont11f img{
+  height: 25px;
+  width: 25px;
+}  
+
+.cont11f2{
+  color: #6F6F6F;
+  padding: 10px;
+  float: left;
+  padding-left: 150px;
+}
+.cont11f3{
+  padding-left: 800px;
+  padding-top: 20px;
+}
